@@ -8,3 +8,4 @@ summ = adding + commando
 print(summ)
 testing_woas =["electric cooker","stove","utencils","blender"]
 print(testing_woas)
+print('this is a bust!!!')
