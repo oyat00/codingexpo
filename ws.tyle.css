@@ -1,8 +1,20 @@
 header,body {
     text-align: center;
 }
+body {
+    font-style: italic;
+}
+body {
+    background-image: url();
+}
 hr {
     height: 2px;
     background-color: rgb(77, 167, 42);
     border-color: rgb(22, 145, 11);
-  }
+}
+.mybood {
+    width: 80%;
+    background-color: rgba(59, 115, 153, 0.781);
+    margin-left: auto;
+    margin-right: auto;
+}
