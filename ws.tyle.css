@@ -18,3 +18,14 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
+header{
+    color: rgba(219, 173, 20, 0.829);
+    font-style: oblique;
+}
+fieldset{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+button{
+    color: red;
+}
