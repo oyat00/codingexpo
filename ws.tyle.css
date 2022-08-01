@@ -35,7 +35,14 @@ fieldset{
 button{
     color: red;
 }
-input,textarea{
-    width: 10%;
-    margin: 10px 0 0 0;
+textarea{
+    width: 40%;
+    margin: 15px 0 0 0;
+}
+input[type="submit"]{
+    background-color: maroon;
+    margin: auto;
+    font-size: 1.0rem;
+    width: auto;
+}
 }
