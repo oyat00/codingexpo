@@ -1,48 +1,93 @@
-header,body {
-    text-align: center;
-}
 body {
+    text-align: center;
     font-family: cursive;
-    background-image: url();
 }
 hr {
     height: 2px;
-    background-color: rgb(77, 167, 42);
-    border-color: rgb(22, 145, 11);
+    width: 60%;
+    background-color: rgb(182, 185, 180);
+    border-color: rgb(253, 253, 253);
 }
 .mybood {
-    width: 80%;
-    background-color: rgba(0, 4, 255, 0.39);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2px;
-    border: 20px outset black;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: antiquewhite;
+    background-color: black;
+    margin: 0 3px;
+    padding: 20px;
+    border: 10px solid black;
+    border-radius: 50px;
+}
+.one{
+    width: 800px;
+    margin: auto;
+    background-color: rgb(6, 66, 48);
+    border-radius: 5px;
+    transform: rotate(-3deg)
+}
+.two{
+    background-color: rgb(11, 56, 41);
+    width: 600px;
+    margin: auto;
+    border-radius: 5px;
+    transform: rotate(5deg);
+}
+.three{
+    background-color: rgba(127, 255, 212, 0.199);
+    width: 600px;
+    margin: auto;
+    border-radius: 30px;
+    transform: rotate(10deg);
 }
 label{
     display: block;
 }
 header{
-    color: rgba(3, 12, 36, 0.829);
+    color:rgb(163, 29, 216);
     font-family: fantasy;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 3px;
-    background-color: rgb(7, 110, 110);
+    background-color: rgb(7, 2, 49);
+    border: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;   
 }
 fieldset{
-    margin-left: 300px;
-    margin-right: 300px;
+    margin: auto;
     border: none;
 }
-button{
-    color: red;
-}
 textarea{
+    display:block;
+    color: azure;
     width: 40%;
-    margin: 15px 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    min-width: 10px;
+    background-color: rgba(39, 24, 1, 0.568);
+    border: 10px;
+    border-color: rgb(112, 104, 104);
+    border-radius: 20px 20px 10px 10px ;
 }
 input[type="submit"]{
-    background-color: maroon;
+    background-color: rgb(11, 2, 49);
     margin: auto;
     font-size: 1.0rem;
     width: auto;
+    border: 1px solid whitesmoke;
+    color: aliceblue;
 }
+h2{
+    border: 20px;
+    width: 60%;
+    border-bottom: double;
+    margin-left: auto;
+    margin-right: auto;
+}
+input:hover{
+    color: blueviolet;
 }
