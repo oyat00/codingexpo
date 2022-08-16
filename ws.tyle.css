@@ -8,6 +8,11 @@ hr {
     background-color: rgb(182, 185, 180);
     border-color: rgb(253, 253, 253);
 }
+.pee3{
+    border-bottom: double;
+    width: 60%;
+    margin: auto;
+}
 .mybood {
     width: auto;
     height: auto;
@@ -22,7 +27,7 @@ hr {
 .one{
     width: 800px;
     margin: auto;
-    background-color: rgb(6, 66, 48);
+    background-color: rgb(6, 78, 56);
     border-radius: 5px;
     transform: rotate(-3deg)
 }
